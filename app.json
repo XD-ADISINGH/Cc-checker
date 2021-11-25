@@ -1,0 +1,29 @@
+{
+    "name": "VCPlayerBot",
+    "description": "Telegram bot to stream video in telegram VC",
+    "repository": "https://github.com/subinps/VCPlayerBot",
+    "stack": "container",
+    "keywords": [
+      "rohithaditya",
+      "cc"
+    ],
+    "env": {
+      "MODE": {
+        "description": "Set As Dev",
+        "value":"dev"
+        "required": true
+      },
+      "CHAT_ID_FORWARD": {
+        "description": "Group id to forward good cc",
+        "required": true
+      },
+      "TOKEN": {
+        "description": "Bot token of Bot, get from @Botfather",
+        "required": true
+      },
+      "HEROKU_APP_NAME":{
+        "description":"YOur app name",
+        "required":true
+      }
+    }
+}
