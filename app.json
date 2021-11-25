@@ -25,5 +25,14 @@
         "description":"YOur app name",
         "required":true
       }
+        {
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
+
     }
     }
+}
