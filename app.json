@@ -24,5 +24,5 @@
       "HEROKU_APP_NAME":{
         "description":"YOur app name",
         "required":true
-      },
+      }
     }
