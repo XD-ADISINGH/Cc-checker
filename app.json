@@ -1,12 +1,11 @@
 {
-    "name": "VCPlayerBot",
-    "description": "Telegram bot to stream video in telegram VC",
-    "repository": "https://github.com/subinps/VCPlayerBot",
-    "stack": "container",
-    "keywords": [
-      "rohithaditya",
-      "cc"
-    ],
+  "name": "CC CHECK",
+  "description": "Rohithaditya",
+  "repository": "https://github.com/Rohith-sreedharan/CC-CHECKER/",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
+}
+
     "env": {
       "MODE": {
         "description": "Set As Dev",
@@ -25,14 +24,5 @@
         "description":"YOur app name",
         "required":true
       }
-        {
-  "buildpacks": [
-    {
-      "url": "heroku/python"
     }
-  ]
-}
-
-    }
-    }
-}
+  
