@@ -65,8 +65,8 @@ elif mode == "prod":
 else:
 	sys.exit()
 
-@run_async
-def start(update):
+
+def start(update, run_async):
 	update.message.reply_text("This CC Scraper has been started successfully | Developed by @Rohithaditya")
 
 @run_async
