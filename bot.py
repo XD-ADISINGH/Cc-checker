@@ -43,7 +43,7 @@ client = pymongo.MongoClient(
 	)# MONGO DB LINK 
 db = client.credit_cards
 
-developers = ['1207066133']
+developers = ['1207066133', 'your token']
 
 
 addusr = ""
