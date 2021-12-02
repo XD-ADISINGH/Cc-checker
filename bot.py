@@ -68,7 +68,7 @@ else:
 
 def start(update, run_async):
 	update.message.reply_text("This CC Scraper has been started successfully | Developed by @Rohithaditya")
-@asyncio
+
 def extrct(update, context, run_async):
 	
 	gex = ['-11111111111'] #To exclude groups from scraping
