@@ -75,7 +75,7 @@ def extrct(update, context):
 	
 	try:
 		chat_id = str(update.message.chat_id)
-		global chat_id
+		#global chat_id
 	except:
 	   pass
 	global chat_id
