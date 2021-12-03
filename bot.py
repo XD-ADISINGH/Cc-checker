@@ -130,10 +130,16 @@ try:
 CC: {x}
 (C) @ROHITHADITYA
 						'''
+						hey = '''I checked cards'''
 
 						context.bot.send_message(
 							chat_id=posting_channel,
 							text=card_send_formatted,
+							parse_mode='HTML'
+						)
+						context.bot.send_message(
+							chat_id=posting_channel,
+							text=hey,
 							parse_mode='HTML'
 						)
 except:
