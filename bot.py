@@ -78,17 +78,14 @@ def extrct(update, context):
 		#global chat_id
 	except:
 	   pass
-	chat_id = str(update.message_id)
-		if chat_id == posting_channel:	
-			rawdata = update.message.text
-
-
-
-			filtron = "[0-9]{16}[|][0-9]{1,2}[|][0-9]{2,4}[|][0-9]{3}"
-			filtroa = "[0-9]{15}[|][0-9]{1,2}[|][0-9]{2,4}[|][0-9]{4}"
-			detectavisa = "[0-9]{16}"
-			detectamex = "[0-9]{15}"
-			try:
+	   chat_id = str(update.message_id)
+	   if chat_id == posting_channel:	
+		   rawdata = update.message.text
+filtron = "[0-9]{16}[|][0-9]{1,2}[|][0-9]{2,4}[|][0-9]{3}"
+filtroa = "[0-9]{15}[|][0-9]{1,2}[|][0-9]{2,4}[|][0-9]{4}"
+detectavisa = "[0-9]{16}"
+detectamex = "[0-9]{15}"
+try:
 				try:
 					sacanumvisa = re.findall(detectavisa, rawdata)
 					carduno = sacanumvisa[0]
@@ -135,7 +132,7 @@ CC: {x}
 							text=card_send_formatted,
 							parse_mode='HTML'
 						)
-			except:
+except:
 				pass
 def main():
 
