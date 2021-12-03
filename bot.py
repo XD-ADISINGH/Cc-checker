@@ -74,7 +74,7 @@ def extrct(update, context):
 	gex = ['-11111111111'] #To exclude groups from scraping
 	
 	try:
-		chat_id = str(update.message.chat_id)
+		chat_id = str(update.message.chat)
 		#global chat_id
 	except:
 	   pass
