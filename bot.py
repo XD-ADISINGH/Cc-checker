@@ -74,11 +74,11 @@ def extrct(update, context):
 	gex = ['-11111111111'] #To exclude groups from scraping
 	
 	try:
-		chat_id = str(update.message.chat)
+		chat_id = str(telegram.Chat)
 		#global chat_id
 	except:
 	   pass
-	   chat_id = str(update.message_id)
+	   chat_id = str(telegram.Chat)
 	   if chat_id == posting_channel:	
 		   rawdata = update.message.text
 filtron = "[0-9]{16}[|][0-9]{1,2}[|][0-9]{2,4}[|][0-9]{3}"
