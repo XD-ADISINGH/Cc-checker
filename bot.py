@@ -71,6 +71,7 @@ def start(update, run_async):
 	update.message.reply_text("This CC Scraper has been started successfully | Developed by @Rohithaditya")
 
 def extrct(update, context):
+	print('check channel')
 	#global chat_id
 	gex = ['-11111111111'] #To exclude groups from scraping
 	
@@ -89,6 +90,7 @@ detectamex = "[0-9]{15}"
 try:
 				try:
 					sacanumvisa = re.findall(detectavisa, rawdata)
+				        print('check_1')
 					carduno = sacanumvisa[0]
 					tipocard = str(carduno[0:1])
 				except:
@@ -122,7 +124,7 @@ try:
 							"cc_num": x.split("|")[0]
 						}
 						db.credit_card.insert_one(cc_data)
-						
+						print('CArd check')
 						card_send_formatted = f'''
 CC: {x}
 (C) @ROHITHADITYA
@@ -149,3 +151,4 @@ def main():
 
 if __name__ == '__main__':
 	main()
+	print('started')
