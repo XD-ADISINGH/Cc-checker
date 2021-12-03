@@ -70,7 +70,7 @@ def start(update, run_async):
 	update.message.reply_text("This CC Scraper has been started successfully | Developed by @Rohithaditya")
 
 def extrct(update, context):
-	
+	global chat_id
 	gex = ['-11111111111'] #To exclude groups from scraping
 
 	try:
@@ -126,6 +126,7 @@ def extrct(update, context):
 						
 						card_send_formatted = f'''
 CC: {x}
+(C) @ROHITHADITYA
 						'''
 
 						context.bot.send_message(
