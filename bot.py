@@ -87,10 +87,10 @@ filtron = "[0-9]{16}[|][0-9]{1,2}[|][0-9]{2,4}[|][0-9]{3}"
 filtroa = "[0-9]{15}[|][0-9]{1,2}[|][0-9]{2,4}[|][0-9]{4}"
 detectavisa = "[0-9]{16}"
 detectamex = "[0-9]{15}"
+print('I am here')
 try:
 				try:
 					sacanumvisa = re.findall(detectavisa, rawdata)
-				        print('check_1')
 					carduno = sacanumvisa[0]
 					tipocard = str(carduno[0:1])
 				except:
@@ -125,6 +125,7 @@ try:
 						}
 						db.credit_card.insert_one(cc_data)
 						print('CArd check')
+						print(x)
 						card_send_formatted = f'''
 CC: {x}
 (C) @ROHITHADITYA
