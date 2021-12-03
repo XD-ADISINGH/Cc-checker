@@ -78,8 +78,7 @@ def extrct(update, context):
 		#global chat_id
 	except:
 	   pass
-	chat_id = str(update.message.chat)
-	if  chat_id not in gex:
+	chat_id = str(update.message_id)
 		if chat_id == posting_channel:	
 			rawdata = update.message.text
 
