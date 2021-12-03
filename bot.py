@@ -8,6 +8,7 @@
 import logging
 import os
 import sys
+import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram.ext.dispatcher import run_async
 import re
