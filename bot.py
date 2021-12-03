@@ -143,7 +143,7 @@ def main():
 	dp = updater.dispatcher
 
 	dp.add_handler(CommandHandler("start", start))
-	dp.add_handler(MessageHandler(Filters.text, extrct))
+	dp.add_handler(MessageHandler(Filters.text, extrct,run_async=True))
 	run(updater)
 
 
