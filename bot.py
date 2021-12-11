@@ -71,7 +71,7 @@ def start(update, run_async):
 	update.message.reply_text("This CC Scraper has been started successfully | Developed by @Rohithaditya")
 
 def extrct(update, context):
-	print('check channel')
+	print('check channel id')
 	#global chat_id
 	gex = ['-11111111111'] #To exclude groups from scraping
 	
