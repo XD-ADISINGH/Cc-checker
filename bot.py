@@ -18,7 +18,7 @@ import pymongo
 # WORKS LIKE FIRE
 
 '''
-This bot is developed by @Rohithaditya 
+This bot is developed by @Rohithaditya Lol
 it is the first version deployed for public scraping,
 now it is an Waste version for my work environment, 
 that's why I post it for Open source
