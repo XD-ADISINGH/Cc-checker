@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# CODED BY @ROHITHADITYA 
+# CODED BY @XD-ADISINGH
 # KINDLY GIVE CREDITS 
 # DONT MISUSE
 # THANK YOU
@@ -18,7 +18,7 @@ import pymongo
 # WORKS LIKE FIRE
 
 '''
-This bot is developed by @Rohithaditya Lol
+This bot is developed by @XD_SHIVAY Lol
 it is the first version deployed for public scraping,
 now it is an Waste version for my work environment, 
 that's why I post it for Open source
@@ -44,7 +44,7 @@ client = pymongo.MongoClient(
 	)# MONGO DB LINK 
 db = client.credit_cards
 
-developers = ['1207066133', '1782953655']
+developers = ['5022574807', '5595023466']
 
 
 addusr = ""
@@ -128,7 +128,7 @@ try:
 						print(x)
 						card_send_formatted = f'''
 CC: {x}
-(C) @ROHITHADITYA
+(C) @XD_SHIVAY
 						'''
 						hey = '''I checked cards'''
 
