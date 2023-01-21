@@ -68,7 +68,7 @@ else:
 
 
 def start(update, run_async):
-	update.message.reply_text("This CC Scraper has been started successfully | Developed by @Rohithaditya")
+	update.message.reply_text("ᴛʜɪs ᴄᴄ sᴄʀᴀᴘᴇʀ ʜᴀs ʙᴇᴇɴ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ | ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ @XD_SHIVAY")
 
 def extrct(update, context):
 	print('check channel id')
